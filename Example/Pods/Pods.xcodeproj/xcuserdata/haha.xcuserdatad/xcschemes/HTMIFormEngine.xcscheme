@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '5C501CE5C4DD858B5CE8916F5D869870'
+               BlueprintIdentifier = '87F842613F5273EA5537988A093EB093'
                BlueprintName = 'HTMIFormEngine'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'HTMIFormEngine.framework'>

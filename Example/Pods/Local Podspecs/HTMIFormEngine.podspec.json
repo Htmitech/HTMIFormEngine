@@ -1,9 +1,9 @@
 {
   "name": "HTMIFormEngine",
-  "version": "0.1.0",
-  "summary": "A short description of HTMIFormEngine.",
+  "version": "1.1.0",
+  "summary": "form engine",
   "description": "TODO: Add long description of the pod here.",
-  "homepage": "https://github.com/lovezhaozhiguo/HTMIFormEngine",
+  "homepage": "https://github.com/Htmitech/HTMIFormEngine",
   "license": {
     "type": "MIT",
     "file": "LICENSE"
@@ -12,11 +12,37 @@
     "lovezhaozhiguo": "553002177@qq.com"
   },
   "source": {
-    "git": "https://github.com/lovezhaozhiguo/HTMIFormEngine.git",
-    "tag": "0.1.0"
+    "git": "https://github.com/Htmitech/HTMIFormEngine.git",
+    "tag": "1.1.0"
   },
   "platforms": {
     "ios": "8.0"
   },
-  "source_files": "HTMIFormEngine/Classes/**/*"
+  "source_files": "HTMIFormEngine/Classes/**/*",
+  "dependencies": {
+    "MJExtension": [
+      "~> 3.0.13"
+    ],
+    "HTMIBaseComponent": [
+      "~> 1.1.1"
+    ],
+    "SDWebImage": [
+      "~> 3.8.2"
+    ],
+    "Masonry": [
+      "~> 1.0.2"
+    ],
+    "ACAlertController": [
+
+    ],
+    "MWPhotoBrowser": [
+      "~> 2.1.2"
+    ],
+    "TTRangeSlider": [
+
+    ],
+    "TZImagePickerController": [
+
+    ]
+  }
 }

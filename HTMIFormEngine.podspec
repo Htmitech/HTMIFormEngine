@@ -8,8 +8,8 @@
 
 Pod::Spec.new do |s|
   s.name             = 'HTMIFormEngine'
-  s.version          = '0.1.0'
-  s.summary          = 'A short description of HTMIFormEngine.'
+  s.version          = '1.1.0'
+  s.summary          = 'form engine'
 
 # This description is used to generate tags and improve search results.
 #   * Think: What does it do? Why did you write it? What is the focus?
@@ -21,11 +21,11 @@ Pod::Spec.new do |s|
 TODO: Add long description of the pod here.
                        DESC
 
-  s.homepage         = 'https://github.com/lovezhaozhiguo/HTMIFormEngine'
+  s.homepage         = 'https://github.com/Htmitech/HTMIFormEngine'
   # s.screenshots     = 'www.example.com/screenshots_1', 'www.example.com/screenshots_2'
   s.license          = { :type => 'MIT', :file => 'LICENSE' }
   s.author           = { 'lovezhaozhiguo' => '553002177@qq.com' }
-  s.source           = { :git => 'https://github.com/lovezhaozhiguo/HTMIFormEngine.git', :tag => s.version.to_s }
+  s.source           = { :git => 'https://github.com/Htmitech/HTMIFormEngine.git', :tag => s.version.to_s }
   # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
   s.ios.deployment_target = '8.0'
@@ -39,4 +39,13 @@ TODO: Add long description of the pod here.
   # s.public_header_files = 'Pod/Classes/**/*.h'
   # s.frameworks = 'UIKit', 'MapKit'
   # s.dependency 'AFNetworking', '~> 2.3'
+
+  s.dependency 'MJExtension', '~> 3.0.13'
+  s.dependency 'HTMIBaseComponent', '~> 1.1.1'
+  s.dependency 'SDWebImage','~> 3.8.2'
+  s.dependency 'Masonry', '~> 1.0.2'
+  s.dependency 'ACAlertController'#(1.0.0)
+  s.dependency 'MWPhotoBrowser', '~> 2.1.2'# `MBProgressHUD (~> 0.9)`
+  s.dependency 'TTRangeSlider'
+  s.dependency 'TZImagePickerController'
 end

@@ -14,7 +14,7 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "AC427DEDA662B10BDF3741DFE3F20994"
+               BlueprintIdentifier = "CE5DEFF96B591741B262C9C6FB2DB9FA"
                BuildableName = "Pods_HTMIFormEngine_Example.framework"
                BlueprintName = "Pods-HTMIFormEngine_Example"
                ReferencedContainer = "container:Pods.xcodeproj">
@@ -47,7 +47,7 @@
       <MacroExpansion>
          <BuildableReference
             BuildableIdentifier = "primary"
-            BlueprintIdentifier = "AC427DEDA662B10BDF3741DFE3F20994"
+            BlueprintIdentifier = "CE5DEFF96B591741B262C9C6FB2DB9FA"
             BuildableName = "Pods_HTMIFormEngine_Example.framework"
             BlueprintName = "Pods-HTMIFormEngine_Example"
             ReferencedContainer = "container:Pods.xcodeproj">

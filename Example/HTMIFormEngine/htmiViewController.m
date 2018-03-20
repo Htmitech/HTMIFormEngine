@@ -8,6 +8,8 @@
 
 #import "htmiViewController.h"
 
+#import "HTMIFormEngineView.h"
+
 @interface htmiViewController ()
 
 @end
@@ -17,6 +19,10 @@
 - (void)viewDidLoad
 {
     [super viewDidLoad];
+    
+    HTMIFormEngineView *view = [[HTMIFormEngineView alloc] initWithFrame:self.view.bounds];
+    
+    [self.view addSubview:view];
 	// Do any additional setup after loading the view, typically from a nib.
 }
 

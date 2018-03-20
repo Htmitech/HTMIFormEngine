@@ -1,7 +1,18 @@
+
+platform :ios, ‘8.0’
 use_frameworks!
 
 target 'HTMIFormEngine_Example' do
   pod 'HTMIFormEngine', :path => '../'
+  
+  pod 'MJExtension', '~> 3.0.13'
+  pod 'HTMIBaseComponent', '~> 1.1.1'
+  pod 'SDWebImage','~> 3.8.2'
+  pod 'Masonry', '~> 1.0.2'
+  pod 'ACAlertController'#(1.0.0)
+  pod 'MWPhotoBrowser', '~> 2.1.2'# `MBProgressHUD (~> 0.9)`
+  pod 'TTRangeSlider'
+  pod 'TZImagePickerController'
 
   target 'HTMIFormEngine_Tests' do
     inherit! :search_paths

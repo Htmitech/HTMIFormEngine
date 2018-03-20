@@ -89,10 +89,32 @@ strip_invalid_archs() {
 
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/ACAlertController/ACAlertController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DACircularProgress/DACircularProgress.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HTMIBaseComponent/HTMIBaseComponent.framework"
   install_framework "$BUILT_PRODUCTS_DIR/HTMIFormEngine/HTMIFormEngine.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MJExtension/MJExtension.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MWPhotoBrowser/MWPhotoBrowser.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SVProgressHUD/SVProgressHUD.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/TTRangeSlider/TTRangeSlider.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_framework "$BUILT_PRODUCTS_DIR/ACAlertController/ACAlertController.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/DACircularProgress/DACircularProgress.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/HTMIBaseComponent/HTMIBaseComponent.framework"
   install_framework "$BUILT_PRODUCTS_DIR/HTMIFormEngine/HTMIFormEngine.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MBProgressHUD/MBProgressHUD.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MJExtension/MJExtension.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/MWPhotoBrowser/MWPhotoBrowser.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/Masonry/Masonry.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SDWebImage/SDWebImage.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/SVProgressHUD/SVProgressHUD.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/TTRangeSlider/TTRangeSlider.framework"
+  install_framework "$BUILT_PRODUCTS_DIR/TZImagePickerController/TZImagePickerController.framework"
 fi
 if [ "${COCOAPODS_PARALLEL_CODE_SIGN}" == "true" ]; then
   wait

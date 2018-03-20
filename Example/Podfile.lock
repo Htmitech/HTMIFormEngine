@@ -1,23 +1,67 @@
 PODS:
+  - ACAlertController (1.0.0)
+  - DACircularProgress (2.3.1)
   - FBSnapshotTestCase (2.1.4):
     - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
   - FBSnapshotTestCase/Core (2.1.4)
   - FBSnapshotTestCase/SwiftSupport (2.1.4):
     - FBSnapshotTestCase/Core
-  - HTMIFormEngine (0.1.0)
+  - HTMIBaseComponent (1.1.3):
+    - SVProgressHUD (~> 2.1.2)
+  - HTMIFormEngine (1.1.0):
+    - ACAlertController
+    - HTMIBaseComponent (~> 1.1.1)
+    - Masonry (~> 1.0.2)
+    - MJExtension (~> 3.0.13)
+    - MWPhotoBrowser (~> 2.1.2)
+    - SDWebImage (~> 3.8.2)
+    - TTRangeSlider
+    - TZImagePickerController
+  - Masonry (1.0.2)
+  - MBProgressHUD (0.9.2)
+  - MJExtension (3.0.13)
+  - MWPhotoBrowser (2.1.2):
+    - DACircularProgress (~> 2.3)
+    - MBProgressHUD (~> 0.9)
+    - SDWebImage (!= 3.7.2, ~> 3.7)
+  - SDWebImage (3.8.2):
+    - SDWebImage/Core (= 3.8.2)
+  - SDWebImage/Core (3.8.2)
+  - SVProgressHUD (2.1.2)
+  - TTRangeSlider (1.0.5)
+  - TZImagePickerController (2.0.0.9)
 
 DEPENDENCIES:
+  - ACAlertController
   - FBSnapshotTestCase
+  - HTMIBaseComponent (~> 1.1.1)
   - HTMIFormEngine (from `../`)
+  - Masonry (~> 1.0.2)
+  - MJExtension (~> 3.0.13)
+  - MWPhotoBrowser (~> 2.1.2)
+  - SDWebImage (~> 3.8.2)
+  - TTRangeSlider
+  - TZImagePickerController
 
 EXTERNAL SOURCES:
   HTMIFormEngine:
     :path: "../"
 
 SPEC CHECKSUMS:
+  ACAlertController: 10f0455c3e1691a6197b5cd0d96d6f9a03c82763
+  DACircularProgress: 4dd437c0fc3da5161cb289e07ac449493d41db71
   FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
-  HTMIFormEngine: 2a1ed2121ed29d31d1108c61dc715f10fec6b86c
+  HTMIBaseComponent: 66a4dbd72eb5aa2ec57ea653bea0709818b60754
+  HTMIFormEngine: c32d5878363f3f921df89ba98e88c2fc23fa70f8
+  Masonry: 7c429b56da9d4ee0bbb3ed77a5ea710d6a5df39e
+  MBProgressHUD: 1569cf7ace17a8bac47aabfbb8580a49690386d1
+  MJExtension: 5932755f451458eefa24239358817f8d291240c7
+  MWPhotoBrowser: 5836d7aa041dc05a13de380c246826578adc5ea5
+  SDWebImage: 098e97e6176540799c27e804c96653ee0833d13c
+  SVProgressHUD: c404a55d78acbeb7ebb78b76d3faf986475a6994
+  TTRangeSlider: 2f2ce4a33b32bb323c6575b9f5161c4664459c58
+  TZImagePickerController: 9bf89512bb6de53e87897f2e17e607c126a199d6
 
-PODFILE CHECKSUM: f037be55102d50ae8bf79c9fc38d00f1716fd8dc
+PODFILE CHECKSUM: 7ebc47ce9064f98e7e37ffa40ae6a2d59184cac5
 
 COCOAPODS: 1.2.1.beta.1
