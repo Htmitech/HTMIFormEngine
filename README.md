@@ -1,26 +1,29 @@
-pod-template
-============
+# HTMIFormEngine
 
-An opinionated template for creating a Pod with the following features:
+[![CI Status](http://img.shields.io/travis/lovezhaozhiguo/HTMIFormEngine.svg?style=flat)](https://travis-ci.org/lovezhaozhiguo/HTMIFormEngine)
+[![Version](https://img.shields.io/cocoapods/v/HTMIFormEngine.svg?style=flat)](http://cocoapods.org/pods/HTMIFormEngine)
+[![License](https://img.shields.io/cocoapods/l/HTMIFormEngine.svg?style=flat)](http://cocoapods.org/pods/HTMIFormEngine)
+[![Platform](https://img.shields.io/cocoapods/p/HTMIFormEngine.svg?style=flat)](http://cocoapods.org/pods/HTMIFormEngine)
 
-- Git as the source control management system
-- Clean folder structure
-- Project generation
-- MIT license
-- Testing as a standard
-- Turnkey access to Travis CI
-- Also supports Carthage
+## Example
 
-## Getting started
+To run the example project, clone the repo, and run `pod install` from the Example directory first.
 
-There are two reasons for wanting to work on this template, making your own or improving the one for everyone's. In both cases you will want to work with the ruby classes inside the `setup` folder, and the example base template that it works on from inside `template/ios/`. 
+## Requirements
 
-## Best practices
+## Installation
 
-The command `pod lib create` aims to be ran along with this guide: http://guides.cocoapods.org/making/using-pod-lib-create.html so any changes of flow should be updated there also.
+HTMIFormEngine is available through [CocoaPods](http://cocoapods.org). To install
+it, simply add the following line to your Podfile:
 
-It is open to communal input, but adding new features, or new ideas are probably better off being discussed in an issue first. In general we try to think if an average Xcode user is going to use this feature or not, if it's unlikely is it a _very strongly_ encouraged best practice ( ala testing / CI. ) If it's something useful for saving a few minutes every deploy, or isn't easily documented in the guide it is likely to be denied in order to keep this project as simple as possible.
+```ruby
+pod 'HTMIFormEngine'
+```
 
-## Requirements:
+## Author
 
-- CocoaPods 1.0.0+
+lovezhaozhiguo, 553002177@qq.com
+
+## License
+
+HTMIFormEngine is available under the MIT license. See the LICENSE file for more info.

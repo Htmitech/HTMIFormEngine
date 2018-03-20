@@ -1,0 +1,22 @@
+{
+  "name": "HTMIFormEngine",
+  "version": "0.1.0",
+  "summary": "A short description of HTMIFormEngine.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/lovezhaozhiguo/HTMIFormEngine",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "lovezhaozhiguo": "553002177@qq.com"
+  },
+  "source": {
+    "git": "https://github.com/lovezhaozhiguo/HTMIFormEngine.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "HTMIFormEngine/Classes/**/*"
+}

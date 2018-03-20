@@ -1,0 +1,11 @@
+use_frameworks!
+
+target 'HTMIFormEngine_Example' do
+  pod 'HTMIFormEngine', :path => '../'
+
+  target 'HTMIFormEngine_Tests' do
+    inherit! :search_paths
+
+    pod 'FBSnapshotTestCase'
+  end
+end

@@ -1,0 +1,23 @@
+PODS:
+  - FBSnapshotTestCase (2.1.4):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.4)
+  - FBSnapshotTestCase/Core (2.1.4)
+  - FBSnapshotTestCase/SwiftSupport (2.1.4):
+    - FBSnapshotTestCase/Core
+  - HTMIFormEngine (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - HTMIFormEngine (from `../`)
+
+EXTERNAL SOURCES:
+  HTMIFormEngine:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 094f9f314decbabe373b87cc339bea235a63e07a
+  HTMIFormEngine: 2a1ed2121ed29d31d1108c61dc715f10fec6b86c
+
+PODFILE CHECKSUM: f037be55102d50ae8bf79c9fc38d00f1716fd8dc
+
+COCOAPODS: 1.2.1.beta.1

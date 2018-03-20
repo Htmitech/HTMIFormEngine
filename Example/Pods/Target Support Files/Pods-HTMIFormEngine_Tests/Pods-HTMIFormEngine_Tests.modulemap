@@ -1,0 +1,6 @@
+framework module Pods_HTMIFormEngine_Tests {
+  umbrella header "Pods-HTMIFormEngine_Tests-umbrella.h"
+
+  export *
+  module * { export * }
+}

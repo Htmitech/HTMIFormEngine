@@ -1,0 +1,6 @@
+framework module HTMIFormEngine {
+  umbrella header "HTMIFormEngine-umbrella.h"
+
+  export *
+  module * { export * }
+}
